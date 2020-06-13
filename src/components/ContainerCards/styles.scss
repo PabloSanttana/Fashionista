@@ -1,0 +1,34 @@
+.cards{
+    width: 100%;
+    margin: 0 auto;
+
+    .result{
+        margin: 10px ;
+        color: gray;
+    }
+
+    .cards__container{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        //justify-content: center;
+       
+    }
+}
+@media only screen and (max-width: 750px) {
+    
+    .cards{
+        .result{
+        }
+    
+        .cards__container{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+           
+        }
+    } 
+}
+  
+

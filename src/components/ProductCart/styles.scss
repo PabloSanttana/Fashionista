@@ -1,0 +1,59 @@
+.card__cart{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 3px gray;
+    background-color: #fff;
+    .card__cart__container__image{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        .card__cart__image{
+            width: 100%;
+        }
+        .card__cart__delet{
+            margin-top: 5px;
+            text-align: center;
+            color:rgb(228, 15, 15);
+            cursor: pointer;
+        }
+    }
+    .card__cart__info{
+        .info__name{
+            color:#2f3640 ;
+            margin-bottom: 10px;
+        }
+        .info__tam{
+            color: gray;
+            font-weight: 700;
+            margin-bottom: 7px;
+        }
+        .info__price{
+            font-size: 15px;
+            font-weight: 700;
+            color:#2f3640 ;
+            margin-bottom: 7px;
+        }
+        .info__installments{
+            font-size: 15px;
+            color: gray;
+            margin-bottom: 10px;
+        }
+        .card__cart__grup__buttons{
+            .card__cart__button{
+                padding: 0px 5px;
+                background-color: #2f3640;
+                color: #fff;
+                font-size: 15px;
+                font-weight: 700;
+            }
+            .card__cart__amount{
+                margin: 0 10px;
+            }
+        }
+    }
+  
+}

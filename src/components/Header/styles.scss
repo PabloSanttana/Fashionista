@@ -1,0 +1,73 @@
+.fixed{
+    position: sticky;
+    top: 0;
+    z-index: 15;
+}
+
+#header{
+    background-color: #fff;
+    height: 60px;
+    width: 100%;
+    min-width: 360px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 5px  grey;
+   
+
+    .header__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .header__logo{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            color: #171a1d;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .header__rigth{
+            display: flex;
+            svg.ShoppingBag{
+                font-size: 24px;
+                color: #2f3640;
+                 cursor: pointer;
+               
+            }
+
+            
+            .header__container__notification{
+                background-color: red;
+                width: 20px;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                position: absolute;
+                top: 5px;
+                margin-left: 10px;
+                span{
+                    margin: 0px;
+                    padding: 0px;
+                    margin-top: 2px;
+                    font-size: 13px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #header{
+        .header__content{
+            .header__logo{
+                font-size: 23px;
+            }
+        }
+       
+    }
+}

@@ -1,0 +1,128 @@
+.cart__container{
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    position: relative;
+    transition: 0.4s;
+    width: 100%;
+    .cart__products{
+      margin-right: 300px;
+      transition: 0.4s;
+      .cart__products__title{
+        text-align: center;
+        color: #2f3640;
+      }
+    }
+    .cart__subtotal{
+        background-color: #fff;
+        padding: 10px;
+        box-shadow: 1px 1px 3px gray;
+        width: 300px;
+        height: 200px;
+        margin-top: 34px;
+        transition: 0.4s;
+        position: fixed;
+        right: calc((100% - 1300px)/2 + 80px);
+        
+
+          h2{
+            font-size: 30px;
+            color: #2f3640;
+            text-align: center;
+            margin-bottom: 20px;
+          }
+        .cart__subtotal__info{
+          span{
+            font-size: 20px;
+            font-weight: 500;
+          }
+          h3{
+            margin-top: 20px;
+          }
+          button{
+          margin-top: 20px;
+          transition: 0.4s;
+          width: 100%;
+           padding: 7px ;
+           background-color:#2f3640 ;
+           box-shadow: 1px 1px 3px gray;
+           border: none;
+           border-radius: 3px;
+           color: #fff;
+          }
+
+        }
+      
+
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+  .cart__container{
+    .cart__subtotal{
+      right: 10px;
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .cart__container{
+    flex-direction: column;
+    padding-bottom: 100px;
+    .cart__products{
+      margin-right: 0px;
+      .cart__products__title{
+        text-align: center;
+        color: #2f3640;
+      }
+    }
+    .cart__subtotal{
+      position: fixed;
+      padding: 5px 20px;
+      height: 80px;
+      bottom: 0px;
+      width: 100%;
+      right: 0;
+
+      h2{
+        font-size: 25px;
+        margin-bottom: 0;
+        margin-right: 10px;
+      }
+      .cart__subtotal__info{
+        display: flex;
+      justify-content: space-between;
+        align-items: center;
+        span{
+          font-size: 17px;
+          margin-right: 20px;
+        }
+        h3{
+          margin-top: 0px;
+        }
+        button{
+          width: 30%;
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 500px){
+
+  .cart__container{
+    .cart__subtotal{
+      h2{
+        font-size: 22px;
+       
+      }
+      .cart__subtotal__info{
+        button{
+          width: 35%;
+       
+        }
+      }
+    }
+  }
+
+}
