@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {useSelector, useDispatch} from 'react-redux'
+import {Link} from 'react-router-dom'
 
 import ProductCart from '../../components/ProductCart'
 import './styles.scss'
@@ -108,7 +109,9 @@ export default function CartPage() {
                     <span>Total de Items: <strong>{totalItem}</strong> </span>
                     <h3> SubTotal R$: {formatarMoeda(subTotal)}</h3>
                     </div>
-                    <button>Comprar</button>
+                  
+                    <button>Finalizar compras</button>
+                    <Link to='/'>Continue comprando</Link>
                 </div>
            </div>
         </div>
