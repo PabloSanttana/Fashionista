@@ -106,7 +106,7 @@ export default function CartPage() {
                 <div className='cart__subtotal__info'>
                     <div>
                     <span>Total de Items: <strong>{totalItem}</strong> </span>
-                    <h3> valor toral R$: {formatarMoeda(subTotal)}</h3>
+                    <h3> SubTotal R$: {formatarMoeda(subTotal)}</h3>
                     </div>
                     <button>Comprar</button>
                 </div>
