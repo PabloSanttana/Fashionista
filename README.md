@@ -24,5 +24,5 @@ o servidor backend está desligado.
 ao baixar o projeto ele tentar se conectar ao servidor que não esta mas em uso.
 
 ##### Video do projeto 
--[Video](https://youtu.be/W0g3XdNvzyY)
+- [Video](https://youtu.be/W0g3XdNvzyY)
 
